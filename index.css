@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.userImg {
+    height: 75%;
+}
+
+.searchBar {
+    width: 30vw;
+    height: 10vh;
+}
+
+.logoImgDiv {
+    background: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userImgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: olivedrab;
+}
+
+.searchDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
