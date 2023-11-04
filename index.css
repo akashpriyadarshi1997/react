@@ -1,40 +1,81 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.main-container {
+    font-family:sans-serif;
 }
 
-.side-by-side {
+.res-header {
     display: flex;
-    justify-content: space-evenly;
-    height: 100vh;
-}
-
-.userImg {
-    height: 75%;
-}
-
-.searchBar {
-    width: 30vw;
+    background: whitesmoke;
+    align-items: center;
     height: 10vh;
+    justify-content: space-between;
 }
 
-.logoImgDiv {
-    background: yellowgreen;
+.res-nav-items > ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    list-style-type: none;
+    font-size: 1.25em;
+    padding-left: 40em;
 }
 
-.userImgDiv {
+.res-nav-items > ul > li {
+    padding-left: 1em;
+}
+
+.res-nav-items > ul > li:hover {
+    cursor: pointer;
+}
+
+.res-cart-img {
+    width: 4%;
+}
+
+.res-logo-logo {
+    width: 4%;
+    padding: 1em;
+}
+
+.res-card {
+    height: auto;
+    width: 18vw;
+    margin: 0.5vw;
+    border-radius: 0.5em;
+    background: lightgray;
+}
+
+.res-card > h3 {
+    font-weight: bolder;
+    padding-left: 0.5em;
+}
+
+.res-card > h4 {
+    font-weight: 100;
+    padding-left: 0.5em;
+}
+
+.res-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.res-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: olivedrab;
+    flex-wrap: wrap;
+}
+
+.res-img {
+    width: 17.5vw;
+    padding: 0.25em;
+    height: 30vh;
 }
 
 .searchDiv {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.searchBar {
+    width: 30vw;
+    height: 5vh;
+    margin-top: 1em;
 }
