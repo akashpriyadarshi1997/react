@@ -1,60 +1,36 @@
-.main-container {
+.body {
     font-family:sans-serif;
 }
 
-.res-header {
+.header {
     display: flex;
-    background: whitesmoke;
-    align-items: center;
-    height: 10vh;
     justify-content: space-between;
-}
-
-.res-nav-items > ul {
-    display: flex;
-    list-style-type: none;
-    font-size: 1.25em;
-    padding-left: 40em;
-}
-
-.res-nav-items > ul > li {
-    padding-left: 1em;
-}
-
-.res-nav-items > ul > li:hover {
-    cursor: pointer;
-}
-
-.res-cart-img {
-    width: 4%;
-}
-
-.res-logo-logo {
-    width: 4%;
-    padding: 1em;
-}
-
-.res-card {
-    height: auto;
-    width: 18vw;
-    margin: 0.5vw;
-    border-radius: 0.5em;
-    background: lightgray;
-}
-
-.res-card > h3 {
-    font-weight: bolder;
-    padding-left: 0.5em;
-}
-
-.res-card > h4 {
-    font-weight: 100;
-    padding-left: 0.5em;
-}
-
-.res-card:hover {
+    align-items: center;
     border: 1px solid black;
-    cursor: pointer;
+    font-family:sans-serif;
+    height: 12vh;
+    background: whitesmoke;
+}
+
+.logo {
+    width: 50px;
+    padding: 0.5em;
+}
+
+.nav-items {
+    display: flex;
+    padding:  0px 20px;
+}
+
+.nav-items > ul {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 1em;
 }
 
 .res-container {
@@ -62,20 +38,37 @@
     flex-wrap: wrap;
 }
 
-.res-img {
+.res-card {
+    margin: 0.5vw;
+    padding: 5px;
     width: 17.5vw;
-    padding: 0.25em;
-    height: 30vh;
+    border-radius: 0.75em;
+    background: lightgray;
 }
 
-.searchDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
 }
 
-.searchBar {
-    width: 30vw;
-    height: 5vh;
-    margin-top: 1em;
+.search {
+    padding: 10px
+}
+
+.res-logo {
+    width: 17.5vw;
+    height: 40vh;
+}
+
+.filter-btn {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.res-card > h3 {
+    font-weight: bolder;
+}
+
+.res-card > h4 {
+    font-weight: 100;
 }
